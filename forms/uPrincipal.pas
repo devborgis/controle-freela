@@ -19,17 +19,17 @@ type
     Panel1: TPanel;
     pnlConfDados: TPanel;
     Label1: TLabel;
-    Edit1: TEdit;
+    edtHostDatabase: TEdit;
     Label2: TLabel;
-    Edit2: TEdit;
-    SpeedButton1: TSpeedButton;
+    edtPathDatabase: TEdit;
+    btnBuscaDatabase: TSpeedButton;
     Label3: TLabel;
-    Edit3: TEdit;
-    Edit4: TEdit;
+    edtUserDatabase: TEdit;
+    edtPassDatabase: TEdit;
     Label4: TLabel;
     Label5: TLabel;
-    Edit5: TEdit;
-    SpeedButton2: TSpeedButton;
+    edtPathDll: TEdit;
+    btnBuscaDll: TSpeedButton;
     Label6: TLabel;
     Label7: TLabel;
     Panel2: TPanel;
@@ -45,6 +45,10 @@ type
     Edit8: TEdit;
     Edit9: TEdit;
     Edit10: TEdit;
+    odDatabase: TOpenDialog;
+    odDll: TOpenDialog;
+    btnTestaConexão: TSpeedButton;
+    btnGravaConexão: TSpeedButton;
   private
     { Private declarations }
   public
